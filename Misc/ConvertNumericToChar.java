@@ -1,3 +1,5 @@
+package Coding.Misc;
+
 public class ConvertNumericToChar {
     public static void main(String[] args) {
         System.out.println(convert("a2b3c4"));

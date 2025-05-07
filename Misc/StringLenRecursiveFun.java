@@ -1,3 +1,5 @@
+package Coding.Misc;
+
 public class StringLenRecursiveFun {
     public static void main(String[] args) {
         System.out.println(findLen("Hello"));

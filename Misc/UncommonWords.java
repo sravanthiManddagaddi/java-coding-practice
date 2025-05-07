@@ -1,4 +1,4 @@
-package com.sravs;
+package Coding.Misc;
 
 import java.sql.SQLOutput;
 import java.util.*;

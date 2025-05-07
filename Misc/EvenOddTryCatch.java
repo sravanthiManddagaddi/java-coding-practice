@@ -1,3 +1,5 @@
+package Coding.Misc;
+
 public class EvenOddTryCatch {
     public static void main(String[] args) {
         int n =18;

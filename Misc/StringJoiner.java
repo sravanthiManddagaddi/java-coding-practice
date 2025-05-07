@@ -1,4 +1,4 @@
-package com.sravs;
+package Coding.Misc;
 
 public class StringJoiner {
     public static void main(String[] args) {
