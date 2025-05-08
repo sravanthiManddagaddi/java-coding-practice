@@ -19,7 +19,7 @@ public class NameUtility {
                 initials = initials + singleName.charAt(0) + ".";
             }
         }
-        return initials;
+        return initials.substring(0,initials.length()-1);
     }
 }
 

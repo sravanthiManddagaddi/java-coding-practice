@@ -10,6 +10,8 @@ public class ValidPalindrome {
         System.out.println(isPalindrome1("race a car"));
         System.out.println(isPalindrome1(" "));
         System.out.println(isPalindrome1("a "));
+        String s = "hannah";
+        System.out.println(findPalindromeRecursive(s,0,s.length()-1));
     }
     public static boolean isPalindrome(String s){
     String regEx = "[^a-zA-Z0-9]";
@@ -44,6 +46,15 @@ public class ValidPalindrome {
                 return true;
             }
             return false;
+        }
+        public static boolean findPalindromeRecursive(String s,int left, int right){
+        if(left>=right){
+            return true;
+        }
+        if(s.charAt(left) != s.charAt(right)){
+            return false;
+        }
+        return findPalindromeRecursive(s,left+1,right-1);
         }
     }
 
