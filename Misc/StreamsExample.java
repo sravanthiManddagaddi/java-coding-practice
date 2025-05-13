@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.decorators.WebDriverDecorator;
 import org.openqa.selenium.support.ui.*;
 
+import java.nio.CharBuffer;
 import java.time.Duration;
 import java.util.Arrays;
 import java.util.List;
@@ -39,7 +40,13 @@ public class StreamsExample {
 //        while(true){
 //            System.out.println(h++);
 //        }
-        
+
+        String s  = "Selenium";
+        StringBuilder sbl = new StringBuilder("Automation");
+        StringBuffer sbf = new StringBuffer("Testing");
+        String result = String.join(" ",s,sbl,sbf);
+        System.out.println(result); //Output --> Selenium Automation Testing
+
 
     }
 }
